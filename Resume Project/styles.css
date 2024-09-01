@@ -1,0 +1,51 @@
+body {
+  margin: 80px 10px;
+  max-width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  border: 2px solid grey;
+  padding: 20px 40px;
+  background-color: white;
+  place-items: center;
+}
+main {
+  flex: 1;
+}
+#section_header {
+  border-style: solid;
+  border-width: thin;
+  border-color: rgb(174, 177, 89);
+  border-radius: 4px;
+}
+.name {
+  text-align: center;
+}
+.skills_container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 20px;
+}
+.left-side,
+.right-side {
+  flex: 1;
+}
+.edu_details {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.date {
+  text-align: end;
+}
+#contact_details {
+  border-bottom: 2px solid #000;
+  text-align: center;
+}
+.needs_date {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
