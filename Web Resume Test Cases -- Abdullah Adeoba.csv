@@ -1,0 +1,37 @@
+Test Case ID,Test Case Description,Expected Result,Test Status,Actual Result,Comment
+Content Verification Test Cases,,,,,
+TC_101,Verify that the resume displays the correct name and contact information.,The resume displays the correct name and contact information ,Completed,The resume displays the correct name and contact information ,Passed
+TC_102,"Verify that the work experience section includes accurate job titles, company names, and dates.","The work experience section included accurate job titles, company names, and dates.",Completed,"The work experience section included accurate job titles, company names, and dates.",Passed
+TC_103,"Verify that the education section displays accurate degree titles, institutions, and graduation dates.","The education section displays accurate degree titles, institutions, and graduation dates.",Completed,"The education section displays accurate degree titles, institutions, and graduation dates.",Passed
+TC_104,"The education section displays accurate degree titles, institutions, and graduation dates.",All listed skills are relevant and correctly spelled with consistent bullet point formatting.,Completed,All listed skills are relevant and correctly spelled with consistent bullet point formatting.,Passed
+TC_105,"Verify that the resume includes all required sections (e.g., Summary, Experience, Education, Skills, etc.).",All required sections are present and properly titled.,Completed,All required sections are present and properly titled.,Passed
+TC_105,"Verify spelling, grammar, and punctuation throughout the resume.","No spelling, grammar, or punctuation errors are present in the resume content.",Completed,"No spelling, grammar, or punctuation errors are present in the resume content.",Passed
+TC_106,Verify that contents remain the same accross browser (Edge and Chrome) and Device (Laptop and Mobile),The contents should remain the same across browsers and devices,Completed,Contents remain the same accross browsers and  devices,Passed
+,,,,,
+Layout Testing Cases,,,,,
+TC_201,Verify that the resume layout displays correctly on desktop browsers (Edge and Chrome).,The resume layout is consistent and properly formatted across all major desktop browsers.,Completed,The resume layout is consistent and properly formatted across the tested browsers.,Passed
+TC_202,Verify that the resume layout displays correctly on mobile browser (Chrome),"The resume layout is responsive and correctly formatted on mobile devices, with no overlapping or misplaced elements.",Completed,"The resume layout is responsive and correctly formatted on mobile devices, with no overlapping or misplaced elements.",Passed
+,,,,,
+TC_203,"Verify that the resume layout is responsive to different screen sizes (e.g., tablet, small laptop).","The resume layout is responsive and displays correctly on various screen sizes, maintaining readability and proper element positioning.",Completed,"The resume layout is responsive and displays correctly on various screen sizes, maintaining readability and proper element positioning.",Passed
+,,,,,
+TC_204,"Verify that the text is properly aligned, with consistent font sizes and spacing throughout the page.","Text is consistently aligned with uniform font sizes, line heights, and spacing between elements.",Completed,"Text is consistently aligned with uniform font sizes, line heights, and spacing between elements.",Passed
+TC_205,Verify that the resume maintains a consistent color scheme and style.,"The color scheme and style are consistent across the entire resume, with no unexpected color changes or inconsistencies.",Completed,"The color scheme and style are consistent across the entire resume, with no unexpected color changes or inconsistencies.",Passed
+,,,,,
+,,,,,
+Link Functionality Test Cases,,,,,
+TC_301,Verify that the email link opens the default email client with the correct email address pre-filled.,The email link opens the default email client with the correct email address pre-filled,Completed,The email link opens the default email client with the correct email address pre-filled,Passed
+TC_302,Verify that the LinkedIn profile link redirects to the correct LinkedIn page.,Clicking the LinkedIn profile link takes the user to the correct LinkedIn profile page.,Completed,Clicking the LinkedIn profile link takes the user to the correct LinkedIn profile page.,Passed
+,,,,,
+,Usability Test Cases,,,,
+TC_401,"Verify that the resume is easy to navigate, with clear section headings.","The resume is easy to navigate, with clear and distinct section headings that help guide the user through the content.",Completed,"The resume is easy to navigate, with clear and distinct section headings that help guide the user through the content.",Passed
+,,,,,
+TC_402,Verify that the text is readable with an appropriate font size and contrast.,"The text is legible, with an appropriate font size and sufficient contrast between the text and background.",Completed,"The text is legible, with an appropriate font size and sufficient contrast between the text and background.",Passed
+,,,,,
+TC_403,"Verify that the resume can be easily printed, with a layout that is printer-friendly.","The resume can be printed without cutting off content or misaligning elements, and it maintains readability on paper.",Completed,"The resume can be printed without cutting off content or misaligning elements, and it maintains readability on paper.",Passed
+,,,,,
+TC_404,"Verify that the resume loads quickly, with no significant delays in displaying content.","The resume page loads quickly, with no significant delays in rendering the content.",Completed,"The resume page loads quickly, with no significant delays in rendering the content.",Passed
+TC_405,Verify that the resume's design and layout guide the user’s eye naturally from section to section.,"The design and layout are intuitive, allowing the user to easily follow the content flow without confusion or difficulty.",Completed,"The design and layout are intuitive, allowing the user to easily follow the content flow without confusion or difficulty.",Passed
+,,,,,
+,,,,,
+Accessability Test Cases,,,,,
+TC_501,Verify that the page structure uses proper HTML semantic elements ,"The resume uses semantic HTML elements that accurately describe the structure of the page, improving navigation for screen readers and other assistive technologies.",Completed,"The resume uses semantic HTML elements that accurately describe the structure of the page, improving navigation for screen readers and other assistive technologies.",Passed
